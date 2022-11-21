@@ -9,7 +9,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "eslint-config-prettier",
-    // "plugin:react-hooks/recommended",
+    "plugin:react-hooks/recommended",
   ],
   parser: "@typescript-eslint/parser",
   parserOptions: {
@@ -56,7 +56,7 @@ module.exports = {
     "no-underscore-dangle": "off",
     "jsx-a11y/no-static-element-interactions": "off",
     "jsx-a11y/click-events-have-key-events": "off",
-    // "react-hooks/exhaustive-deps": "error",
+    "react-hooks/exhaustive-deps": "error",
     "react/no-unknown-property": ["error", { ignore: ["css"] }],
     "react/function-component-definition": "off",
     "react/jsx-no-useless-fragment": "off",
